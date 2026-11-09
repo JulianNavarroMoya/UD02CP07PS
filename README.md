@@ -1,4 +1,4 @@
-# Ordenación por mezcla concurrente (Caso práctico 7)
+# UD02CP07
 
 Implementación del algoritmo recursivo de **ordenación por mezcla (merge sort)** de forma concurrente, usando un **árbol binario de hebras**. Cada nodo del árbol es un `Thread` que divide su lista, delega cada mitad en dos hebras hijas y, cuando éstas terminan, mezcla los resultados.
 
